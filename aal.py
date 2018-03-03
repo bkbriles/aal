@@ -52,14 +52,3 @@ while True:
         pyautogui.moveTo(50,50,duration = 70)
         next_video = pyautogui.locateCenterOnScreen('next_video.png')
         pyautogui.click(next_video)
-
-'''
-pyautogui.dragTo(25, 25, duration = num_seconds)
-pyautogui.dragRel(50, 50, duration = num_seconds)
-pyautogui.click(x=moveToX, y=moveToY, clicks=num_of_clicks, interval=secs_between_clicks, button='left')
-pyautogui.typewrite('Hello world!\n', interval=secs_between_keys)  # useful for entering text, newline is Enter
-pyautogui.locateCenterOnScreen('looksLikeThis.png')  # returns center x and y
-(898, 423)
-pyautogui.screenshot('foo.png')  # returns a Pillow/PIL Image object, and saves it to a file
-<PIL.Image.Image image mode=RGB size=1920x1080 at 0x31AA198>
-'''
